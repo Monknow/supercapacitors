@@ -15,7 +15,7 @@ EY = zeros(size(Y));
 
 for i = 1:numel(X)
 
-    [EX(i), EY(i)] = calculate_vector_field_at_point(X(i), Y(i), position_positive(1), position_negative(1), 0, plate_length);
+    [EX(i), EY(i)] = calculate_vector_field_at_point_r2(X(i), Y(i), position_positive(1), position_negative(1), 0, plate_length);
 end
 
 figure;
